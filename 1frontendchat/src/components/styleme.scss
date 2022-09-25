@@ -1,0 +1,24 @@
+.about {
+    position: fixed;
+    width: 5vh;
+    height: 11vh;
+    right: 1vh;
+    top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    >a {
+        width: 5vh;
+        height: 5vh;
+        border-radius: 50%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        &:nth-child(1) {
+            background-image: url('./../assets/git.png');
+        }
+        &:nth-child(2) {
+            background-image: url('./../assets/sen.png');
+        }
+    }
+}
